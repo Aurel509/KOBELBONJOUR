@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aurel509\\source\\repos\\KOBELBONJOUR\\KOBELBONJOUR\\KOBELBONJOUR.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aurel509\\source\\repos\\KOBELBONJOUR\\KOBELBONJOUR\\KOBELBONJOUR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aurel509\\source\\repos\\KOBELBONJOUR\\KOBELBONJOUR\\KOBELBONJOUR.csproj",
+        "projectName": "KOBELBONJOUR",
+        "projectPath": "C:\\Users\\Aurel509\\source\\repos\\KOBELBONJOUR\\KOBELBONJOUR\\KOBELBONJOUR.csproj",
+        "packagesPath": "C:\\Users\\Aurel509\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aurel509\\source\\repos\\KOBELBONJOUR\\KOBELBONJOUR\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Aurel509\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

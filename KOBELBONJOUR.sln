@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOBELBONJOUR", "KOBELBONJOUR\KOBELBONJOUR.csproj", "{C59F4FB1-F0AB-491F-9BB0-2E2FAC63A652}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SoundBoardInstaller", "SoundBoardInstaller\SoundBoardInstaller.vdproj", "{511F3B21-E341-4E66-B906-F022B828B937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C59F4FB1-F0AB-491F-9BB0-2E2FAC63A652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59F4FB1-F0AB-491F-9BB0-2E2FAC63A652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59F4FB1-F0AB-491F-9BB0-2E2FAC63A652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59F4FB1-F0AB-491F-9BB0-2E2FAC63A652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511F3B21-E341-4E66-B906-F022B828B937}.Debug|Any CPU.ActiveCfg = Debug
+		{511F3B21-E341-4E66-B906-F022B828B937}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF3CFA13-01AD-4E6C-8338-0CD84104A2CB}
+	EndGlobalSection
+EndGlobal
