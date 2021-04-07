@@ -21,10 +21,6 @@
         "originalTargetFrameworks": [
           "net472"
         ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -32,14 +28,7 @@
         }
       },
       "frameworks": {
-        "net472": {
-          "dependencies": {
-            "NAudio": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            }
-          }
-        }
+        "net472": {}
       },
       "runtimes": {
         "win": {
