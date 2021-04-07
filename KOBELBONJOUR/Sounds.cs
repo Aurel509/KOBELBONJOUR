@@ -16,6 +16,8 @@ namespace KOBELBONJOUR
         private readonly string path;
         private MediaPlayer player = new MediaPlayer();
 
+        //Ta mère la chauve mdr
+
 
         public Sounds(String name,String path)
         {
