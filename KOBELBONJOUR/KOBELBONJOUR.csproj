@@ -105,13 +105,5 @@
   <ItemGroup>
     <Resource Include="chrome_PcScGBtLT2.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="sounds\kourauh.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="sounds\oof.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

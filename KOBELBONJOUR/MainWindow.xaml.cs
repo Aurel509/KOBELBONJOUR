@@ -31,13 +31,12 @@ namespace KOBELBONJOUR
 
         private readonly List<Sound> sounds = new List<Sound>();
         private Sound CurrentSound;
-        private bool modeCancer = false;
 
         //All sounds
         private void InitSounds()
         {
             string path = System.Environment.CurrentDirectory + "\\sounds\\";
-            System.IO.Directory.CreateDirectory("path");
+            System.IO.Directory.CreateDirectory("sounds");
             List<string> files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories).ToList();
             foreach (string file in files)
             {
@@ -67,7 +66,7 @@ namespace KOBELBONJOUR
         //FONCTIONS DE SONS EN CARTON
         void TriggerButton(object sender, RoutedEventArgs e)
         {
-            if(CurrentSound != null && !modeCancer)
+            if(CurrentSound != null && cancer_mode.IsChecked == false)
             {
                 CurrentSound.Stop();
             }
@@ -76,5 +75,14 @@ namespace KOBELBONJOUR
             sound.Play();
             CurrentSound = sound;
         }
+
+        private void StopAllSounds(object sender, RoutedEventArgs e)
+        {
+            foreach(Sound snd in sounds)
+            {
+                snd.Stop();
+            }
+        }
+
     }
 }
