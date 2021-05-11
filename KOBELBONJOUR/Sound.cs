@@ -9,20 +9,20 @@ using System.Windows.Media;
 
 namespace KOBELBONJOUR
 {
-    public class Sounds
+    public class Sound
     {
 
         private readonly string name;
         private readonly string path;
         private MediaPlayer player = new MediaPlayer();
 
-        public Sounds(String name,String path)
+        public Sound(String name,String path)
         {
             this.name = name;
             this.path = path;
         }
 
-        public void PlaySound()
+        public void Play()
         {
             Uri link = new Uri(path, UriKind.Relative);
             Debug.WriteLine(link);
@@ -32,6 +32,7 @@ namespace KOBELBONJOUR
         }
 
         public String GetName() { return name; }
-        public Sounds GetSound() { return this; }
+        public Sound GetSound() { return this; }
+        public String GetPath() { return path; }
     }
 }

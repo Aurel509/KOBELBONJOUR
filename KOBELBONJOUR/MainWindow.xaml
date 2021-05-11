@@ -6,11 +6,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KOBELBONJOUR"
         mc:Ignorable="d"
-        Title="SOUNDBOARD DE QUALITE" Height="289" Width="365">
+        Title="SOUNDBOARD DE QUALITE" Height="720" Width="1280">
     <Grid>
-        <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="100" Source="chrome_PcScGBtLT2.png"/>
-        <Label Content="BONJOUR A TOUS" HorizontalAlignment="Center" Margin="20,91,10,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-        <WrapPanel Name="list_buttons" HorizontalAlignment="Left" Height="92" Margin="10,158,0,0" VerticalAlignment="Top" Width="339"/>
+        <Image HorizontalAlignment="Center" Height="75" VerticalAlignment="Top" Width="75" Source="chrome_PcScGBtLT2.png" Margin="142,15,142,0"/>
+        <Label Content="BONJOUR A TOUS" HorizontalAlignment="Center" Margin="37,91,33,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <WrapPanel Name="list_buttons" HorizontalAlignment="Left" Height="512" Margin="10,158,0,0" VerticalAlignment="Top" Width="1250"/>
 
     </Grid>
 </Window>
