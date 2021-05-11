@@ -30,6 +30,8 @@ namespace KOBELBONJOUR
         }
 
         private readonly List<Sound> sounds = new List<Sound>();
+        private Sound CurrentSound;
+        private bool modeCancer = false;
 
         //All sounds
         private void InitSounds()
@@ -65,9 +67,14 @@ namespace KOBELBONJOUR
         //FONCTIONS DE SONS EN CARTON
         void TriggerButton(object sender, RoutedEventArgs e)
         {
+            if(CurrentSound != null && !modeCancer)
+            {
+                CurrentSound.Stop();
+            }
             var btn = e.OriginalSource as Button;
             Sound sound = sounds.Find(x => x.GetName().Contains(btn.Content.ToString()));
             sound.Play();
+            CurrentSound = sound;
         }
     }
 }

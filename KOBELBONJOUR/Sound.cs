@@ -31,6 +31,11 @@ namespace KOBELBONJOUR
 
         }
 
+        public void Stop()
+        {
+            player.Stop();
+        }
+
         public String GetName() { return name; }
         public Sound GetSound() { return this; }
         public String GetPath() { return path; }
