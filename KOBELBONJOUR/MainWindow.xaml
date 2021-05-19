@@ -33,12 +33,13 @@
         <Label Content="BONJOUR A TOUS" HorizontalAlignment="Center" Margin="37,91,33,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="150" VerticalAlignment="Top" Width="auto" >
-            <Button x:Name="Btn_stopSound" Content="Stop Sounds" HorizontalAlignment="Left" Margin="25,0,25,0" VerticalAlignment="Top" Width="95" Click="StopAllSounds"/>
-            <CheckBox x:Name="cancer_mode" Content="Mode Cancer" HorizontalAlignment="Left" Margin="25,0,25,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="3.398,3.972"/>
-            <Button Content="Ajout Sounds" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,0,25,0" Width="98"/>
+            <Button x:Name="Btn_stopSound" Content="Stop Sounds" HorizontalAlignment="Left" Margin="25" VerticalAlignment="Top" Height="50" Width="100" Click="StopAllSounds"/>
+            <CheckBox x:Name="cancer_mode" Content="Mode Cancer" HorizontalAlignment="Left" Margin="25, 40, 25, 25" FontSize="14" RenderTransformOrigin="3.398,3.972"/>
+            <Button x:Name="Btn_addSound" Content="Ajouter son" HorizontalAlignment="Left"  Margin="25" VerticalAlignment="Top" Height="50" Width="100" Click="AddNewSound"/>
         </StackPanel>
-        <ListBox ItemContainerStyle="{DynamicResource ListBoxNoHighlight}" Name="lb_listSounds" SelectionMode="Single" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Auto">
-            <WrapPanel Name="list_buttons" HorizontalAlignment="Left" VerticalAlignment="Top" />
+
+        <ListBox ItemContainerStyle="{DynamicResource ListBoxNoHighlight}" Name="lb_listSounds" SelectionMode="Single" HorizontalAlignment="Left" Margin="10,250,10,10" VerticalAlignment="Top">
+            <WrapPanel Orientation="Vertical" Name="list_buttons" HorizontalAlignment="Left" VerticalAlignment="Top" MaxHeight="1000px" ScrollViewer.HorizontalScrollBarVisibility="Visible"/>
         </ListBox>
 
     </Grid>

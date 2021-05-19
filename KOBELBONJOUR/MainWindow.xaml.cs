@@ -84,5 +84,9 @@ namespace KOBELBONJOUR
             }
         }
 
+        private void AddNewSound(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("test ajout son");
+        }
     }
 }
