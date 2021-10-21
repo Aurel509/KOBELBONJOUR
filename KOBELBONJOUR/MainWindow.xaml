@@ -6,7 +6,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KOBELBONJOUR"
         mc:Ignorable="d"
-        Title="SOUNDBOARD DE QUALITE" Height="720" Width="1280">
+        Title="SOUNDBOARD DE QUALITE" Height="720" Width="1280"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True">
     <Window.Resources>
         <Style x:Key="ListBoxNoHighlight" TargetType="ListBoxItem">
             <Setter Property="Template">
@@ -40,7 +42,7 @@
 
         <ListBox ItemContainerStyle="{DynamicResource ListBoxNoHighlight}" Name="lb_listSounds" SelectionMode="Single" HorizontalAlignment="Left" Margin="10,250,10,10" VerticalAlignment="Top">
             <WrapPanel Orientation="Vertical" Name="list_buttons" HorizontalAlignment="Left" VerticalAlignment="Top" MaxHeight="1000px" ScrollViewer.HorizontalScrollBarVisibility="Visible"/>
+            <ScrollBar></ScrollBar>
         </ListBox>
-
     </Grid>
 </Window>
