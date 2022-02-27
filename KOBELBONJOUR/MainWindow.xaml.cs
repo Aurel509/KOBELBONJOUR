@@ -42,8 +42,8 @@ namespace KOBELBONJOUR
             Button btn = new Button
             {
                 Content = sound.GetName(),
-                Width = 100,
-                Height = 100,
+                Width = 85,
+                Height = 75,
                 Margin = new Thickness(15, 15, 15, 15)
             };
 

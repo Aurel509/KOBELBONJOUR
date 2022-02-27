@@ -1,5 +1,4 @@
-﻿
-    <Window x:Class="KOBELBONJOUR.MainWindow"
+﻿<Window x:Class="KOBELBONJOUR.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -41,7 +40,7 @@
         </StackPanel>
 
         <ListBox ItemContainerStyle="{DynamicResource ListBoxNoHighlight}" Name="lb_listSounds" SelectionMode="Single" HorizontalAlignment="Left" Margin="10,250,10,10" VerticalAlignment="Top">
-            <WrapPanel Orientation="Vertical" Name="list_buttons" HorizontalAlignment="Left" VerticalAlignment="Top" MaxHeight="1000px" ScrollViewer.HorizontalScrollBarVisibility="Visible"/>
+            <WrapPanel Orientation="Vertical" Name="list_buttons" HorizontalAlignment="Left" VerticalAlignment="Top" MaxHeight="1000px" ScrollViewer.HorizontalScrollBarVisibility="Visible" Height="376" Width="1222"/>
             <ScrollBar></ScrollBar>
         </ListBox>
     </Grid>
